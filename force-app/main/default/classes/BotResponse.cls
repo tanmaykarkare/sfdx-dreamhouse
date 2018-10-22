@@ -13,6 +13,7 @@ public class BotResponse {
     public BotResponse(List<BotMessage> messages, Map<String, String> session) {
         this.messages = messages;
         this.session = session;
+        system.debug('this is test');
     }
 
     /**
